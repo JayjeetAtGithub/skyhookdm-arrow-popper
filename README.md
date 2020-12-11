@@ -32,5 +32,5 @@ popper sh -f wf.yml test
 
 * Finally, run this example Python script to write objects and run queries interactively.
 ```
-python3 code.py
+python3 example.py
 ```
