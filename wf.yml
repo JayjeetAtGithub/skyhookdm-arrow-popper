@@ -1,0 +1,14 @@
+steps:
+- id: test
+  uses: docker://jcnitdgp25/arrow-cls-dev-env:2020-12-11
+  runs: [./build.sh]
+  options: 
+    ports: 
+      8888/tcp: 8888
+  env:
+    LD_LIBRARY_PATH: /root/dist/lib:/usr/local/lib/
+    PYARROW_BUILD_TYPE: Debug
+    PYARROW_WITH_DATASET: '1'
+    PYARROW_WITH_PARQUET: '1'
+    PYARROW_WITH_RADOS: '1'
+    ARROW_HOME: /root/dist
