@@ -19,13 +19,17 @@ pip install popper
 git clone https://github.com/JayjeetAtGithub/skyhookdm-arrow-popper .
 ```
 
-* Interactively build, install, and run the C++ and Python APIs.
+* Running the below command will put you inside a container, with the `$PWD` folder bind-mounted to `/workspace` inside the container.
 ```
 popper sh -f wf.yml test
+```
 
-# build and install the C++ and Python libraries.
+* Now, build and install the C++ and Python libraries.
+```
 ./build.sh
+```
 
-# writing objects and running queries interactively.
+* Finally, write objects and run queries interactively.
+```
 python3 code.py
 ```
