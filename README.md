@@ -1,7 +1,7 @@
 # skyhookdm-arrow-popper
 
 
-Instructions for building and testing SkyhookDM arrow with Popper on the local machine.
+Instructions for building and testing SkyhookDM arrow using Popper on the local machine.
 
 * Clone the [uccross](https://github.com/uccross) fork of Arrow.
 ```
