@@ -21,11 +21,11 @@ git clone https://github.com/JayjeetAtGithub/skyhookdm-arrow-popper .
 
 * Interactively build, install, and run the C++ and Python APIs.
 ```
-popper sh test
+popper sh -f wf.yml test
 
 # build and install the C++ and Python libraries.
 ./build.sh
 
 # writing objects and running queries interactively.
-python3 example.py
+python3 code.py
 ```
