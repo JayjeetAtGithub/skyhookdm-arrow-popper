@@ -14,10 +14,7 @@ cd arrow/
 pip install popper
 ```
 
-* Clone the Popper workflow into the Arrow root.
-```
-git clone https://github.com/JayjeetAtGithub/skyhookdm-arrow-popper .
-```
+* Copy paste the `wf.yml` inside the Arrow root.
 
 * Running the below command will put you inside a container, with the `$PWD` folder bind-mounted to `/workspace` inside the container.
 Here the Arrow root will be mounted in the workspace.
