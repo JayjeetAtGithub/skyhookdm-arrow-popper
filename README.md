@@ -31,3 +31,5 @@ popper sh -f wf.yml test
 ```
 python3 example.py
 ```
+
+*NOTE:* Instructions to build and test using archery, the daily development tool by the Apache Arrow community can be found [here](https://gist.github.com/JayjeetAtGithub/a9ae5cb3e4bc48cc84d99319c80bbd0b).
